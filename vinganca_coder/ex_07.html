@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiro e ultimo</title>
+</head>
+<body>
+    <script>
+        var valor1= parseFloat(prompt("Digite o 1° valor"))
+        var valor2= parseFloat(prompt("Digite o 2° valor"))
+        var valor3= parseFloat(prompt("Digite o 3° valor"))
+        var valor4= parseFloat(prompt("Digite o 4° valor"))
+
+        if(valor1 > valor2 && valor1 > valor3 && valor1 > valor4){
+            window.alert("o maior valor é o 1°  " )
+            alert("o 1° valor é o:    "+valor1)
+            alert("o 2° valor é:  "+valor4)
+        }
+        
+        else if(valor2 > valor1 && valor2 > valor3 && valor3 > valor4){
+            alert("o maior valor é 2°    "+valor2 )
+            alert("o 1° valor é o:    "+valor1)
+            alert("o 2° valor é:  "+valor4)
+        }
+
+        else if(valor3 > valor1 && valor3 > valor2 && valor3 > valor4){
+            alert("o maior valor é o 3°  " +valor3 )
+            alert("o 1° valor é o:    "+valor1)
+            alert("o 2° valor é:  "+valor4)
+        }
+        else if(valor4 > valor1 && valor4 > valor2 && valor4 > valor3) {
+            alert("o maior valor é 4° :  " + valor4 )
+            alert("o 1° valor é o:    "+valor1)
+            alert("o 2° valor é:  "+valor4)
+        }
+
+
+        
+    </script>
+    
+</body>
+</html>

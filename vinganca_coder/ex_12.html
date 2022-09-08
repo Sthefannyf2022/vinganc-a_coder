@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> mini calculadora</title>
+</head>
+<body>
+    <script>
+        var valor1=parseFloat(prompt("Digite um valor"))
+        var valor2= parseFloat(prompt("Ditite o 2° valor"))
+        var escolha=parseFloat(prompt("digite uma escolha 1.Adição, 2.Subtração, 3.Divisão, 4.Multiplicação). "))
+        
+
+        if(escolha ==1){
+            alert("a soma dos valores é: "+ (valor1+valor2))
+
+
+        }
+
+        else if(escolha ==2){
+            alert("a subtração dos valores é: "+ (valor1-valor2))
+
+
+        }
+
+        else if(escolha ==3){
+            alert("a divisão dos valores  é: "+ (valor1/valor2))
+
+        }
+        else if (escolha ==4){
+            alert("a multiplicação dos valores  é: "+ (valor1*valor2))
+
+        }
+        else {
+            alert("opção invalida")
+        }
+    </script>
+    
+</body>
+</html>
